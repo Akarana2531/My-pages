@@ -1,0 +1,166 @@
+* {
+   font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ãƒ¡ã‚¤ãƒªã‚ª',Meiryo,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯',sans-serif;
+}
+body {
+   background-image: url("../image/profilebg.jpg");
+   background-size: 100% auto;
+}
+p {
+   font-size: 1.1em;
+}
+.header {
+  margin: 10px 20px 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+.header img {
+  max-height: 100%;
+  aspect-ratio: 5 / 1;
+}
+.result {
+   max-width: 90%;
+   width: 800px;
+   margin: 0 auto;
+}
+.waku,.share {
+   margin: 20px 0;
+   background-color: #ffffff;
+   box-shadow: 0px 4px 10px gray;
+}
+.waku_title,.share_title {
+   text-align: center;
+   padding: 0.3px 0;
+   border: 3px solid #ffffff;
+   background-color: #1a1a1a;
+   color: #ffffff;
+   box-shadow: 0px 5px 5px gray;
+}
+.link {
+   text-align: center;
+   font-size: 1.2em;
+}
+.waku_title h2 {
+   font-size: 1.5em;
+}
+.waku_contents,.share_contents {
+   padding: 15px 20px;  
+}
+.result img {
+   width: 8em;
+   height: auto;
+}
+#loader-bg p {
+  left: 50%;
+  font-size: 2em;
+}
+.share_title h2 {
+   font-size: 1em;
+}
+select, input, textarea, button { 
+     vertical-align:middle; 
+     position:relative; 
+}
+
+input { 
+     height: 15px; 
+     line-height: 15px; 
+}
+.share_contents {
+     text-align: center;
+}
+textarea, button { 
+     vertical-align:middle; 
+     position:relative; 
+     margin: 0 auto;
+}
+textarea {
+   resize: none;
+   font-size: 1em;
+   width: 300px;
+   max-width: 65%;
+   height: auto;
+}
+button {
+   font-size: 1em;
+   max-width: 30%;
+}
+.copy_alert {
+  display: none;
+}
+.copy_alert span {
+  background-color: #e6f2ff;
+  color: #1e90ff;
+}
+.powered {
+  width: 100%;
+  color: #ffffff;
+  font-size: 0.8em;
+  padding: 10px;
+  text-align: center;
+}
+.powered a {
+  color: #ffffff;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.userinfo{
+  display: flex; 
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px gray;
+}
+.profileimg {
+  width: 23%;
+  aspect-ratio: 1 / 1;
+  border: 2px solid #ffffff;
+}
+.profileimg img{
+  width: 100%;
+  vertical-align:top;
+}
+.data{
+  width: 77%;
+  padding-left:1.0em;
+  line-height: 0.9em;
+}
+
+@media (max-width: 650px) {
+p {
+   font-size: 1em;
+}
+.header {
+  margin: 10px 5px 20px;
+}
+.data h1{
+  font-size: 1.8em;
+}
+.data p{
+  font-size: 0.9em;
+ }
+textarea {
+  overflow: hidden;
+ }
+
+.userinfo{
+  display: block;
+  padding-top: 1em;
+ }
+.profileimg {
+  width: 23%;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+.data{
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 1em;
+  text-align: center;
+ }
+.link {
+   font-size: 1.1em;
+ }
+}
